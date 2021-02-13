@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Sidebar {
+    background: #F9F7F7;
+    padding: 15px;
+    text-align: center;
+}
+
+#LogoEContato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 158px;
+}
+
+#Contato {
+    margin-left: -20px;
+}
+
+#Logo img {
+    width: 180px;
+}
+
+#Linha {
+    width: 90%;
+}
+
+#Topicos {
+    background: #F9F7F7;
+    margin-left: 30px;
+}
+
+#Topicos a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    color: #808080;
+    margin-right: 30px;
+}
+
+#Topicos a:hover {
+    color: #f0bc2e;
+}
+
+#Navbar {
+    background: #F9F7F7;
+    position: fixed;
+    margin-top: -300px;
+    width: 100%;
+    z-index: 50;
+}
+
+#Navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    color: #808080;
+    line-height: 50px;
+    margin-right: 30px;
+}
+
+#Navbar a:hover {
+    color: #f0bc2e;
+}
+
+#Slide {
+    width: 1000px; /* Imagem precisa ser 866 x 377 */
+    padding: 25px;
+    margin: 20px auto;
+}
+.Infos h1 {
+    color: #f0bc2e;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.Infos {
+    padding: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 25px;  
+    margin: 15px auto;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+#Prefeitura {
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+#ContatoDaP {
+    font-size: 17px;
+}
+
+.card {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
